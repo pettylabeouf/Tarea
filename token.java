@@ -25,14 +25,14 @@ public class token {
 
 	StringTokenizer tokens=new StringTokenizer(oracion);
 
-	// while(tokens.hasMoreTokens()) {
-		 //	String nombre = tokens.nextToken();
+	while(tokens.hasMoreTokens()) {
+		 	String nombre = tokens.nextToken();
 
-		  // String apellido = tokens.nextToken();
+		   String apellido = tokens.nextToken();
 
-		  // System.out.println(tokens.nextToken(nombre+" "+apellido));
+		   System.out.println(tokens.nextToken(nombre+" "+apellido));
 
-	// }
+	 }
 	 
 	 File archivo=new File("oracion2.txt");
 	 FileWriter escribir=new FileWriter(archivo);
