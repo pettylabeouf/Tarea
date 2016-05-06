@@ -12,6 +12,8 @@ public class Libro {
 		this.nombre=nombre;
 	}
 
-
+	public String toString(){
+		return "Nombre del libro: "+this.nombre + "	" + "Cantidad: " + this.cantidad + "  Precio: "+ this.precio ;
+	}
 	
 }

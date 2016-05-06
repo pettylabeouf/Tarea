@@ -11,7 +11,7 @@ public class Main {
 		
 		Scanner sc=new Scanner(System.in);
 		while(k<10){
-			System.out.println("Escribe el nobre: " );
+			System.out.println("Escribe el nombre del libro "+k+1+": " );
 			String nombre=sc.nextLine();
 			
 			System.out.println("Escribe el precio: " );
@@ -33,5 +33,5 @@ public class Main {
 			k++;
 		}
 		
-		}
+	}
 }
